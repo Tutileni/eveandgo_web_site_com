@@ -1,0 +1,81 @@
+h1
+{ 
+	font-family:arial, sans-serif;		/* Police de caractère */
+	font-weight:normal;
+	text-align: center;
+	text-transform:uppercase;
+	background: #841F1F;
+	background:-webkit-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-ms-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-moz-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-o-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:linear-gradient(to top, #841F1F, #CA2F2F);
+	color: white;
+	-moz-border-radius: 10px;			/* spécifique à mozilla	*/
+	-webkit-border-radius: 10px;		/* spécifique à safari	*/
+	-o-border-radius: 10px;				/* spécifique à opéra	*/
+	border-radius:10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table 
+{ 
+	border:solid black 1px; 
+	width:900px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+ }
+ 
+ .ensemble
+ {
+	border-right: solid black 1px;
+	border-left: solid black 1px;
+	width: 925px;
+	margin-left: auto;
+	margin-right: auto;
+ }
+ 
+td
+{ 
+	border:solid 1px;
+	width:900px;
+	text-align: center;
+	
+ }
+ 
+ .ligne_1
+ {
+	
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	color: white;
+	
+ }
+ 
+ .ligne_1 td
+ {
+	border-radius: 10px;
+	background-color: #DF0101;
+ }
+ 
+ .bordure_gauche
+ {
+	border-radius:  0px 0px 0px 10px;
+	-moz-border-radius:  0px 0px 0px 10px;			/* spécifique à mozilla*/
+	-webkit-border-radius:  0px 0px 0px 10px;		/* spécifique à safari*/
+	-o-border-radius:  0px 0px 0px 10px;			/* spécifique à opéra*/
+ }
+ 
+  .bordure_droite
+ {
+	border-radius:  0px 0px 10px 0px;
+	-moz-border-radius:  0px 0px 10px 0px;			/* spécifique à mozilla*/
+	-webkit-border-radius:  0px 0px 10px 0px;		/* spécifique à safari*/
+	-o-border-radius:  0px 0px 10px 0px;			/* spécifique à opéra*/
+ }

@@ -1,0 +1,190 @@
+body
+{
+	background-color:#f0f0f0;
+}
+
+h1
+{ 
+	font-family:arial, sans-serif;		/* Police de caractère */
+	font-weight:normal;
+	text-align: center;
+	text-transform:uppercase;
+	background: #841F1F;
+	background:-webkit-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-ms-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-moz-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-o-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:linear-gradient(to top, #841F1F, #CA2F2F);
+	color: white;
+	-moz-border-radius: 10px;			/* spécifique à mozilla*/
+	-webkit-border-radius: 10px;		/* spécifique à safari*/
+	-o-border-radius: 10px;				/* spécifique à opéra*/
+	border-radius:10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+h2
+{
+	font-family:arial, sans-serif;
+	color: #841F1F;
+}
+
+
+#Type
+{
+	top: 50px;
+    height:50px;
+    margin: 0 1%;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 900px;
+}
+
+#Type ul 
+{
+	margin:0;
+	padding:0;
+	width: 100%;
+	list-style-type:none;
+
+ }
+ 
+#Type li 
+{
+	float:left;
+	width:9.75%;
+	margin: 1px;
+	padding:0;
+	background-color:#841F1F; /*Couleur de fond*/
+	background:-webkit-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-ms-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-moz-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-o-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:linear-gradient(to top, #841F1F, #CA2F2F);
+	
+ }
+ 
+#Type li a 
+{
+	display:block;
+	color:white;
+	text-decoration:none;
+	padding:5px;
+	text-align: center;
+ }
+ 
+ /************************************************/
+ /* Lorsque l'on parcours le menu avec la souris */
+ /************************************************/
+  
+#Type li a:hover		
+{
+	color: blue;
+	/*text-decoration: underline;*/
+ 
+ }
+
+#Type ul li ul 
+{	
+	display:none;
+	width: 895.5px;
+	color: white;
+}
+ 
+ /******************************************************/
+ /* Lorsque l'on parcours la sous-liste avec la souris */
+ /******************************************************/
+ 
+#Type  ul li:hover ul
+{
+	display:block; /* la sous-liste apparait*/
+}
+
+#Type li:hover ul li {
+ float:none;
+ }
+
+#Type li ul 
+{
+	position:absolute;
+ }
+ 
+
+/*****************************/
+/* Style de la partie filtre */
+/*****************************/
+
+form
+{
+	background-color: #BDBDBD;
+	padding:50px;
+	width:798px;
+	font-family: arial;
+	margin-left: auto;
+	margin-right: auto;
+
+ }
+ 
+select
+ {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius:10px;
+	width:200px;
+	height: 20px;
+}
+
+hr
+{
+	width: 800px; /* La taille du trait de séparation dans le filtre*/
+}
+
+/**********************************/
+/* Style de listing des évènement */
+/**********************************/
+p
+{
+	width: 895.5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div_img
+{
+	width:890px;
+	height:300px;
+	background-color:#fafbfc;  
+	margin-left: auto;
+	margin-right: auto;
+	padding:5px;
+	border:1px solid #b0b0b0;
+}
+
+.img
+{
+	width:200px;
+	height:300px;
+	border:1px solid #b0b0b0;
+	float: left;
+}
+
+.legende_image
+{
+	width:200px;
+	height:200px;
+	float: left;
+	padding: 20px;
+	padding-left:100px;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+}
+
+.titre_event
+{
+	list-style-type:none;
+}

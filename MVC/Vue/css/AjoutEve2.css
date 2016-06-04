@@ -1,0 +1,144 @@
+
+body header .bloc_page
+{
+	display:block;
+	border-radius:10px;
+	width:900px;
+	background-color:#F0F0F0;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:18px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+	
+}
+
+body header .bloc_page h1:not(body header .bloc_page #pageve h1) {
+	font-family: arial,sans-serif;
+	font-weight:normal;
+	color: white;
+	text-align: center;
+	background: #841F1F;
+	border-radius: 10px;
+}
+
+body header .bloc_page form
+{	/*border: 1px solid yellow;*/
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+body header .bloc_page fieldset
+{
+	border:none;
+}
+
+body header .bloc_page ul:not(body header .bloc_page #pageve ul) {
+	padding-left:0px;
+	
+	
+}
+
+body header .bloc_page .ul1 {
+	padding-left:0px;
+	list-style-type:none;
+}
+
+body header .bloc_page li:not(body header .bloc_page #pageve li) {
+	padding-bottom:15px;
+	padding-left:0px;
+}
+
+
+body header .bloc_page .A
+{	/*border: 1px solid black;*/
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	width:450px;
+	height: 400px;
+	
+}
+body header .bloc_page form fieldset .A .A1
+{	/*border: 1px solid blue;*/
+	display: inline-block;
+	vertical-align: top;
+	width:150px;
+	height: 350px;
+	text-align: left;
+	margin-right: 0px;
+	margin-left: -60px;
+}
+
+body header .bloc_page .A2
+{	/*border: 1px solid purple;*/
+	display: inline-block;
+	vertical-align: top;
+	width:250px;
+	height: 350px;text-align: left;margin-left: 10px;
+}
+body header .bloc_page .A2 input[type="text"]{
+	width: 200px;
+}
+body header .bloc_page .A2 input[type="time"]{
+	width: 50px;
+}
+
+body header .bloc_page .B
+{	/*border: 1px solid red;*/
+	display: inline-block;
+	vertical-align: top;
+	float:right;
+	width:415px;
+	height: 400px;text-align: left;
+}
+
+body header .bloc_page .B1	{
+	/*border: 1px solid green;*/
+	display: inline-block;
+	vertical-align: top;
+	float:left;
+	width:230px;
+	height: 350px;text-align: left;
+	
+}
+
+body header .bloc_page .B2 {
+	/*border: 1px solid grey;*/
+	display: inline-block;
+	vertical-align: top;
+	float:right;
+	width:180px;
+	height: 350px;text-align: left;
+}
+
+body header .bloc_page .C	{
+	/*border: 1px solid yellow;*/
+	display: inline-block;
+	vertical-align: top;
+	text-align:center;
+	width:880px;
+	height: 500px;
+	
+
+}
+
+
+
+body header .bloc_page .importer_fichier, body header .bloc_page .ajouter_eve
+{
+	text-align:center;
+
+}
+.B2 > ul input[type="text"],.Sous_categorie > input:nth-child(1),.Site_web > input:nth-child(1),body header .bloc_page .A2 input[type="text"]{
+	width: 150px ! important;
+	height: 15px ! important;
+	margin-top: -5px ! important;
+
+
+}
+.B1 ul,.A1 ul{
+	list-style: none ! important;
+}

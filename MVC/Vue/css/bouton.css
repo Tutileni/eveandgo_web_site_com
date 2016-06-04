@@ -1,0 +1,55 @@
+/* --  Boutons en CSS3 
+Réalisation © imaginative
+http:// www.web-imaginative.com
+
+-- */
+
+
+
+.bouton {
+	width:150; 
+	padding:8px 0; 
+	text-align:center; 
+	display: inline-block; 
+	float:center; 
+	margin:0 15px 15px 0; 
+	font-size: 1.6em; 
+	border-radius:7px; 
+	box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1); 
+	font-size: 0.85em; 
+	width:120px; 
+	color:#333; 
+	text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+	}	
+	
+	
+.bouton.large{font-size: 1.1em; width:150px}
+
+
+/* ************************** Couleurs des boutons / Hover et Active classes *************************** */
+
+/* -- Bouton noir -- */	
+.bouton.noir, .bouton.noir:active { 
+	background: #444; 
+	background: linear-gradient( #DF0101, #DF0101);
+	background: -webkit-linear-gradient( #DF0101, #DF0101); 
+	background: -moz-linear-gradient( #DF0101, #DF0101); 
+	background: -ms-linear-gradient( #DF0101, #DF0101); 
+	background: -o-linear-gradient(#DF0101, #DF0101); 
+	background: linear-gradient( #DF0101, #DF0101);
+	}
+.bouton.noir:hover {
+	background: #555;
+	background: -webkit-linear-gradient( #777, #333);
+	background: -moz-linear-gradient( #777, #333);
+	background: -ms-linear-gradient( #777, #333);
+	background: -o-linear-gradient( #777, #333);
+	background: linear-gradient( #777, #333);	
+	}	
+.bouton.noir:active{box-shadow: 1px 1px 10px #000 inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
+
+
+.bouton.violet:active{box-shadow: 1px 1px 10px #7A294F inset, 0 1px 0 rgba( 255, 255, 255, 0.4);}
+
+/* ************************** Couleurs des polices *************************** */
+.bouton.noir, .bouton.noir:active {color:#FFF;}

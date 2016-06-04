@@ -1,0 +1,227 @@
+#position1{
+	top: auto;
+    left: 25%;
+
+}#position1 form {
+	margin-bottom: 10px;
+}
+
+
+
+
+#sinscrire
+{
+	display:block;
+	
+	font-family:arial,sans-serif;
+	font-size: xx-large;
+
+	display:block;
+	background:#444;
+	font-family:arial,sans-serif;
+	background: linear-gradient( #DF0101, #DF0101);
+	background: -webkit-linear-gradient( #DF0101, #DF0101); 
+	background: -moz-linear-gradient( #DF0101, #DF0101); 
+	background: -ms-linear-gradient( #DF0101, #DF0101); 
+	background: -o-linear-gradient(#DF0101, #DF0101); 
+	background: linear-gradient( #DF0101, #DF0101);
+	color: white;
+
+	-moz-border-radius: 10px;			/* spécifique à mozilla*/
+	-webkit-border-radius: 10px;		/* spécifique à safari*/
+	-o-border-radius: 10px;				/* spécifique à opéra*/
+	border-radius:10px;
+	width: 200px;
+	margin-left: 348px;
+	margin-right: auto;
+	text-align: center;
+
+
+}
+#sinscrire:hover{
+
+	background: #555;
+	background: -webkit-linear-gradient( #777, #333);
+	background: -moz-linear-gradient( #777, #333);
+	background: -ms-linear-gradient( #777, #333);
+	background: -o-linear-gradient( #777, #333);
+	background: linear-gradient( #777, #333);
+}
+
+
+
+
+.inscription
+{
+	display:block;
+	background:#841F1F;
+	font-family:arial,sans-serif;
+	font-size: xlarger;
+	background:-webkit-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-ms-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-moz-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-o-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:linear-gradient(to top, #841F1F, #CA2F2F);
+	color: white;
+	-moz-border-radius: 10px;			/* spécifique à mozilla*/
+	-webkit-border-radius: 10px;		/* spécifique à safari*/
+	-o-border-radius: 10px;				/* spécifique à opéra*/
+	border-radius:5px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+	
+}
+
+.body
+{
+	display:block;
+	width:900px;
+	background-color:#F0F0F0;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;
+	padding-bottom: 10px;
+	top:0%;
+	
+   	margin-top:10px;
+   	padding-top: 0px;	
+}
+
+.bloc1
+{
+	display:block;
+	padding-bottom: 20px;
+   	margin-top:30px;
+}
+
+.bloc2
+{
+	
+	display:block;
+	float:right;
+	width:650px;
+}
+
+.photo_profil
+{
+	display:block;
+	float:left;
+	margin-left:10px;
+	width:200px;
+	height: 200px;
+}
+#photo
+{
+	border-style:solid;
+}
+
+.error 
+{
+	color: #FF0000;
+	font-size:small;
+}
+.nom_sexe
+{
+	display: block;
+	float:left;
+	width:650px;
+	margin-left:97px;
+}
+
+.coordonnees
+{
+	display:block;
+	float:right;
+	width:552px;
+	margin-left:397px;
+}
+
+.compte
+{
+	display:block;
+	float:right;
+	padding-right:0px;
+	width:552px;
+}
+
+.confirmation
+{
+	display:block;
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#nom , #prenom, #birthday 
+{
+	display:inline;
+	width:150px;
+}
+
+
+#adresse1 , #adresse2 , #ville
+{
+	display:inline;
+	width:350px;
+}
+
+.coordonnées 
+{
+	margin-left: 100px;
+}
+
+#sexe
+{
+	display:block;
+	width:200px;
+}
+
+#sexem , #sexef
+{
+	display:block;
+	width:100px;
+}
+
+#region
+{
+	display:inline;
+	width:260px;
+
+}
+
+#email1 , #email2
+{
+	display:inline;
+	width:350px;
+}
+
+#pseudo , #pdw1 , #pdw2
+{
+	display:inline;
+	width:205px;
+}
+
+footer
+{
+	text-align:center;
+}
+
+footer a
+{
+	margin-left:3%;
+}
+
+footer a:first-child
+{
+	margin-left:0;
+}
+
+footer a:hover
+{
+	color:blue;
+}

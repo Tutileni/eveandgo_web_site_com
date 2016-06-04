@@ -1,0 +1,204 @@
+
+html,body{
+	height: auto ;
+	background: #FFF none repeat scroll 0% 0%;
+    background-color: #FFFFFF;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    width: 1200px;
+    position:relative;
+	
+	}
+
+.body{
+	
+	display:block;
+	width:900px;
+	background-color:#F0F0F0;
+	margin-left:auto;
+	margin-right:auto;
+	font-weight:bold;	
+}
+	
+nav:not(#Type){
+	
+	position: auto;
+	width: 900px !important;
+	float: center !important;
+	margin: 200px 0px 0px 325px;
+	text-align: center;
+	padding: 0px 0px;
+	padding-bottom: 10px;
+}	 
+
+
+body header .bloc .flotte{float: left;}
+
+
+
+
+
+body  header footer{
+	 width: 100%;
+	left: 0px;
+	right: 0px;
+  text-align: center;
+  /*background: #4d97ce;
+ padding: 190px 0;*/
+ padding-bottom: 0px;
+ 
+	max-height:25%;
+	min-height:10%;
+	bottom:0%;
+   
+	margin-top:auto;
+	margin-left:0%;
+	margin-right:0%;
+	
+	padding-top:2px;
+	vertical-align:center;
+	display: inline-block;
+	height:10px ! important;
+	text-align:center;
+	background-color:#464646;
+	padding: 140px 0;
+	padding-top: 100px;
+}
+
+header footer a{
+	margin-right:2%;
+}
+
+
+header footer a:first-child{
+	margin-left:0;
+}
+
+header footer a:hover{
+	color:#CA2F2F;
+}
+
+header footer img{
+	height:40px ! important;
+	width:40px ! important; 
+}
+
+header footer   a:link, a:hover, a:visited{
+	text-decoration:none !important;
+	outline:none !important;
+}
+
+header footer a{
+	color:white;
+	-webkit-transition:all 500ms linear;
+	-moz-transition:all 500ms linear;
+	-o-transition:all 500ms linear;
+	-ms-transition:all 500ms linear;
+	-kthml-transition:all 500ms linear;
+	transition:all 500ms linear;
+} 
+body header {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+	right:25%;
+    width:936px;
+    height:auto;
+   bottom: 0%;
+    padding-bottom:0%;
+   
+}
+
+body article {
+    position: relative;
+    top: 35%;
+    left: 25%;
+	right:25%;
+    width:936px;
+    height:auto;
+	
+   
+    padding-bottom:0%;
+    padding-top:0%;
+    margin-top: 40%;
+     margin-bottom: 0%;
+    
+}
+body article div.article_evenement,
+body article .resultat h1{
+    position: relative;
+    top: 3px;
+    
+   text-align: left;
+    
+	
+   
+    padding-bottom:0%;
+    padding-top:0%;
+    margin-top: -57%;
+    margin-bottom: 15%;
+    left: auto;
+     right: auto;
+    
+}
+
+body article div#position1 .body{
+    position: relative;
+    top: 3px;
+    padding-bottom:0%;
+    padding-top:0%;
+    margin-top: -50%;
+    margin-bottom: 15%;
+    
+}
+body header footer:not(body article footer){
+    position: relative;
+    left: 0%;
+	right:0%;
+    width:100%;
+    height:auto;
+	max-height:25%;
+	min-height:15%;
+	bottom:0%;
+   
+	margin-top:auto;
+	margin-left:0%;
+	margin-right:0%;
+}
+body header .bloc{
+	display:block; /* Pour que la magie opere */
+	/* Pour retablir l'alignement du texte apres c'est à vous de voir */
+	vertical-align:middle; /* Pour centrer verticalement nos blocs */
+}
+body{
+	min-height: 50%;
+	max-height: 75%;
+}
+body article.resultat form table,body article.resultat .bouton{
+
+	position: relative;
+    top: auto;
+    padding-bottom:0%;
+    padding-top:0%;
+    margin-top:15px;
+    margin-bottom: -5%;
+	left:auto;
+    right: auto;
+    margin-left: auto;
+     
+}
+
+.bloc_page #bpageeve{
+	margin-top: 25px;
+}
+
+body > header:nth-child(3) > footer:nth-child(5) > a:nth-child(12) > img:nth-child(1),body > header:nth-child(3) > footer:nth-child(5) > a:nth-child(11) > img:nth-child(1),body > header:nth-child(3) > footer:nth-child(5) > a:nth-child(13) > img:nth-child(1){
+
+	height: 40px;
+	width: 40px;
+}

@@ -1,0 +1,218 @@
+
+.header{
+	margin-left:200px;
+	margin-right:200px;
+}
+
+a:link, a:hover, a:visited{
+	text-decoration:none !important;
+	outline:none !important;
+}
+
+a{
+	color:#841F1F;
+	-webkit-transition:all 500ms linear;
+	-moz-transition:all 500ms linear;
+	-o-transition:all 500ms linear;
+	-ms-transition:all 500ms linear;
+	-kthml-transition:all 500ms linear;
+	transition:all 500ms linear;
+} 
+
+
+a:hover{
+	color:#CA2F2F;
+}
+
+body header form div.connection ,body header div.connection{
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:5px;
+	margin-right:5px;
+	
+	float:right;
+	font-size:12px;
+	width:500px;
+	padding-bottom: 2%;
+	padding-left: 0%;
+
+	position: auto;
+    top: 5px;
+    left: 25%;
+	right:2%;
+}
+
+body header nav form {
+	position: relative;
+	right:0%;
+	padding-left: 50px;
+	
+}
+
+body header form div.connection div.connectionHead hr { /* OK */
+	max-width:500px;
+	border:1px solid #666666;
+	color:#666666;
+}
+
+body header form div.connection .connectionHead,body header .connection .connectionHead{/* OK */
+	text-align:left;
+	font-variant:small-caps;
+	color:#CA2F2F;
+	font-weight:bold;
+	letter-spacing:2px;
+
+}
+
+body header form div.connection input[type="text"]:focus, body header form div.connection input[type="password"]:focus{
+	border:1px #CA2F2F solid;/* OK */
+}
+
+
+body header form div.connection input[type="text"],body header form div.connection input[type="password"],body article .bloc_page input[type="text"]{
+	width:120px;	/* OK */
+	margin-left:auto;
+	border-radius:2px;
+	border:1px gray solid;
+}
+
+body header form div.connection input[type="submit"],body header .connection input[type="button"]{
+	display:inline-block;
+    color: white;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border-radius:5px;
+	border:1px solid #721B1B;
+	background:#841F1F;
+	background:-webkit-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-ms-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-moz-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:-o-linear-gradient(bottom, #841F1F, #CA2F2F);
+	background:linear-gradient(to top, #841F1F, #CA2F2F);
+	font-size:11px;
+}
+
+/* barre_nav DE NAVIGATION */
+
+
+		body header nav #barre_nav ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 936px;
+			background-color:#CA2F2F;
+			list-style:none;
+			font-family:Time News Roman;
+			height:29px;
+			position: relative;
+		    top: 0px;
+		    left: -36%;
+			right:0%;
+		    bottom: 5px; 
+		}
+ body header nav div #barre_nav{
+	float: left;
+ }
+body header nav #barre_nav ul li { display: inline; }
+ 
+body header nav #barre_nav ul li a {
+	background-color:#CA2F2F;
+	color: white;
+	text-decoration: none;
+	padding: 2px 10px 5px 10px;
+	float:left;
+	font-size: 18px;
+	
+}
+ 
+body header nav #barre_nav ul li a:hover {
+	background-color: #CCCCCC;   /* Couleur de fond */
+	color: #fff;
+}
+
+/* Champ de saisie */
+body header nav #barre_nav #search {
+background-color: white;   /* Couleur de fond */
+border: none;   /* Supprime les bordures par défaut */
+padding: 2px 5px;
+height:15px;
+margin-top:-3px !important;
+font-size: 12px;   /* Espace autour du texte du champ de saisie : haut droite bas gauche */
+}
+
+/* Couleur du texte par défaut du champ de saisie */
+::-webkit-input-placeholder {
+color: red;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: red; 
+}
+::-moz-placeholder { /* Firefox 19+ */
+color: red; 
+}
+:-ms-input-placeholder { 
+color: red; 
+}
+
+/* Bouton valider */
+body header nav #barre_nav #search-btn {
+color: #CA2F2F;   /* Couleur du texte du bouton valider */
+letter-spacing: 1px;   /* Espacement des caractères du texte du bouton valider */
+font-family: 'Lato', sans-serif;   /* Police du texte du bouton valider */
+font-style: normal;   /* Style de la police du texte du bouton valider : normal = normal ; italic = italique */
+font-weight: normal;   /* Graisse du texte du bouton valider : normal = normal ; bold = gras */
+text-transform: uppercase;   /* Texte en majuscules */
+background-color: #fff;   /* Fond du bouton valider */
+border: none;   /* Pas de bordure au bouton valider */
+padding:2px 5px;   /* Espace entre le texte et le bord du bouton : haut droite bas gauche */
+margin: 3px;   /* Espace à gauche du bouton valider */
+height:21px;
+}
+
+/* Bouton valider au survol de la souris */
+body header nav #barre_nav #search-btn:hover {
+background-color: #464646;   /* Couleur de fond */
+color: #fff;   /* Couleur de la police */
+}
+
+.circular1 {	
+	float:left;
+	padding-bottom: 10px;
+	position: auto;
+    top: 0px;
+    left: 25%;
+	right:25%;
+}
+
+a{
+	text-decoration:none !important;
+}
+
+label:not(#label_prenom_et_nom,#champ_cache){
+	display:block;
+	width:150px;
+	float:left;
+	font-size: 18px;
+	color: #CA2F2F;                           
+}
+
+#label_prenom_et_nom{
+    float:left;
+	font-size: 12px;
+    color: #CA2F2F;
+}
+
+.erreur
+{
+    display: block;
+    width: 150px;
+    float: left;
+    color: black;
+    font-size: auto;
+}
+ 
+  select{
+  	width: 160px;
+  }

@@ -1,0 +1,33 @@
+body header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:800px;
+    height:50px;
+    background-color:hotpink;
+}
+body aside { 
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    width: 200px;
+    height: 400px;
+    background-color: greenyellow;
+}
+body article {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    width:600px;
+    height:400px;
+    background-color:aquamarine;
+    
+}
+body footer {
+    position: absolute;
+    top: 450px;
+    left: 0px;
+    width:800px;
+    height:50px;
+    background-color:yellow;
+}
